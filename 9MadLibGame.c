@@ -13,8 +13,8 @@ int main() {
   printf("Enter a celebrity: ");
   scanf("%s%s", celebrityF, celebrityL);
 
-  printf("Roses are %s", color);
-  printf("%s are blue", pluraNoun);
+  printf("Roses are %s\n", color);
+  printf("%s are blue\n", pluraNoun);
   printf("I love %s %s\n", celebrityF, celebrityL);
   return 0;
 }
