@@ -25,7 +25,7 @@ int main()
             scanf("%f", &fahrenhiteTemp);
             result = 5 * (fahrenhiteTemp - 32) / 9;
             printf("The result is: %.2fF\n", result);
-            printf("Do you want to proceed?\n");
+            printf("Do you want to proceed?\n\"y\" or \"n\"\n");
             scanf(" %c", &proceed);
             if (proceed != 'y')
             {
@@ -39,7 +39,7 @@ int main()
             scanf("%f", &celsiusTemp);
             result = (celsiusTemp * 9 / 5) + 32;
             printf("The result is: %.2fC\n", result);
-            printf("Do you want to proceed?\n");
+            printf("Do you want to proceed?\n\"y\" or \"n\"\n");
             scanf(" %c", &proceed);
             if (proceed != 'y')
             {
@@ -48,7 +48,7 @@ int main()
         }
         else
         {
-            printf("You entered wrong character!\nDo you want to proceed?\n");
+            printf("You entered wrong character!\nDo you want to proceed?\n\"y\" or \"n\"\n");
             scanf(" %c", &proceed);
             if (proceed != 'y')
             {
@@ -56,6 +56,5 @@ int main()
             }
         }
     }
-    system("pause");
     return 0;
 }
