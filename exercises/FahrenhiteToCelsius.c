@@ -47,7 +47,7 @@ int main()
             }
         }
         else
-        {
+        {   
             printf("You entered wrong character!\nDo you want to proceed?\n\"y\" or \"n\"\n");
             scanf(" %c", &proceed);
             if (proceed != 'y')
